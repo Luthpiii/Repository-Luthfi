@@ -1,4 +1,4 @@
-export default function LearnPage() {
+export default function Task2Page() {
     return(
         <div className="bg-white h-screen flex gap-5 justify-center items-center">
             <div className="bg-cyan-100 h-72 w-96 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
