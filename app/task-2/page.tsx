@@ -1,11 +1,14 @@
 export default function Task2Page() {
     return(
         <div className="bg-white h-screen flex gap-5 justify-center items-center">
+
             <div className="bg-cyan-100 h-72 w-96 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
+
                 <div className="flex gap-3">
                     <img src="/palette.svg"/>
                     <p>Design</p>
                 </div>
+
                 <div>
                     <h1 className="text-2xl font-bold">Adobe Photoshop</h1>
                     <br/>
@@ -15,15 +18,14 @@ export default function Task2Page() {
                             <img src="/steven.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
                             <img src="/Finnn.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
                             <img src="/James.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
-                            <div className="rounded-full bg-white px-2 text-xs">
+                            <div className="flex items-center w-7 h-7 rounded-full bg-white p-1.5 text-xs">
                                 <p>+9</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                
-                </div>
+            </div>
 
             <div className="bg-green-100 h-72 w-96 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
 
@@ -44,13 +46,15 @@ export default function Task2Page() {
                             <img src="/Grizzly.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
                             <img src="/Panda.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
                             <img src="/Ice.svg" className="w-7 h-7 rounded-full border-2 border-white"/>
-                            <div className="rounded-full bg-white px-2 text-xs">
+                            <div className="flex items-center w-7 h-7 rounded-full bg-white p-1.5 text-xs">
                                 <p>+3</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </div>
     )
 };
