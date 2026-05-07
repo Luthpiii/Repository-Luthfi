@@ -1,8 +1,8 @@
 export default function Task2Page() {
     return(
-        <div className="bg-white h-235 w-335 flex gap-4 justify-center items-center flex-col">
+        <div className="bg-white h-900 w-900 flex gap-4 justify-center items-center flex-col">
 
-            <div className="flex gap-5 justify-center">
+            <div className="flex gap-5">
         
                 <div className="bg-cyan-100 h-77 w-113 flex flex-col justify-between p-9 rounded-4xl text-cyan-950">
                     <div className="flex gap-3">
@@ -11,7 +11,6 @@ export default function Task2Page() {
                     </div>
                     <div>
                         <h1 className="text-3xl font-bold">Adobe Photoshop</h1>
-                        <br/>
                         <div className="flex justify-between">
                             <p className="text-1xl font-bold">in 6 days</p>
                             <div className="flex -space-x-3 items-center">
@@ -53,7 +52,7 @@ export default function Task2Page() {
         
             </div>
         
-            <div className="flex gap-5 justify-center">
+            <div className="flex gap-5">
         
                 <div className="bg-purple-200 h-67 w-73 flex flex-col justify-between p-9 rounded-4xl text-blue-950">
                     <div className="flex gap-3">
