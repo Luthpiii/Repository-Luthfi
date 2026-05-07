@@ -31,10 +31,9 @@ export default function holidayPage() {
                             <button className="text-white text-xs">Search flight</button>
                         </div>
                         <div className="bg-white border border-gray-300  rounded-full flex justify-center items-center h-10 w-10">
-                        <button className=""></button>
-                            <div>
-                                <img src="/heart.svg" className=" h-5 w-5"/>
-                            </div>
+                        <button>
+                            <img src="/heart.svg" className=" h-5 w-5"/>
+                        </button>
                         </div>
                     </div>
 
